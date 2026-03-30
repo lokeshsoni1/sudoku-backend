@@ -10,8 +10,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 public class HelloController {
     @GetMapping("/hello")
     public String hello() {
-        return "Radha Swami" +
-                "Hello Lokesh Bhai 🔥, Ye mera First Backend Project haiii";
+        return "RS, Ye mera First Backend Project haiii";
     }
 
     @PostMapping("/solve")
